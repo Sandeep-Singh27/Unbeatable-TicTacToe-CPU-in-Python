@@ -8,7 +8,7 @@ First thing i did was to make the possible functions:-
 Moment of Realisation (naah i just recalled the recursive approach of merge sort and it did help me brainstorm):-
 
 if we are the top most parent node and starting with max, then we should call it a max-min function.
-i say say so because we are using first max then inside min then min inside of it uses max.
+i say so because we are using first max then inside min then min inside of it uses max.
 
 and all the very next child nodes(of top most parent node) are using min-max function.
 cause they each of the child node are calling using min-max 
