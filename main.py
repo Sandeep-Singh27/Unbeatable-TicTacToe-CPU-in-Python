@@ -1,6 +1,6 @@
 import os
 while True: 
-    os.system("cls")   
+    os.system("clear")   
     print("LET'S START GAME:-")
     print()
     print("WHO WILL PLAY FIRST?","PRESS 1 FOR PLAYER","PRESS 2 FOR CPU",sep="\n")

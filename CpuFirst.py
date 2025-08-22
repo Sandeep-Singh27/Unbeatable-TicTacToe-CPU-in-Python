@@ -7,7 +7,7 @@ import os
 import random
 
 #clear screen at run
-os.system("cls")
+os.system("clear")
 
 board = [
     ["-","-","-"],
@@ -43,14 +43,14 @@ while True:
         column = int(coordinates[1])
         board[row][column] = "X"
         
-        os.system("cls")
+        os.system("clear")
         print("PLAYER PLAYED:")
         displayBoard(board)
         print()
         print("CPU is thinking...")
         cpu_turn = True
         time.sleep(1)
-        os.system("cls")
+        os.system("clear")
         
     #If the game is over
     index, points = maxFunction(board,0)
@@ -66,4 +66,3 @@ while True:
             displayBoard(board)
             print("PLAYER WON")
             break
-
